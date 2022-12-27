@@ -25,3 +25,11 @@ o = ['to get The rare treasure ','to get the Gold ']
 p = ['and ']
 q = ['went on their ways ','escaped from there ']
 
+#selecting an item from each list using random.choice() and concatenating them to form a story
+print(random.choice(a) + random.choice(b) +random.choice(c) + random.choice(d) + random.choice(e) + random.choice(f)
+      +random.choice(g) + random.choice(h)+random.choice(i) +random.choice(j) + random.choice(k)  + random.choice(L)
++random.choice(m) + random.choice(n)+random.choice(o) +random.choice(p) + random.choice(q))
+
+print()
+print()
+print("The End")
